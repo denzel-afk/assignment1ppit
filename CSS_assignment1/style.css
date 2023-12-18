@@ -1,0 +1,112 @@
+body{
+    background:url("../Images/bekgron\ biru\ estetik.avif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fied;
+    background-size: cover;
+
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    line-height: 1.6em;
+    font-size: 14px;
+}
+
+.container-title{
+    width: 90%;
+    margin: auto;
+    overflow:hidden;
+    position: relative;
+}
+
+.container-content{
+    background: rgb(72, 72, 209);
+    margin-left : 200px;
+    margin-right: 200px;
+    border-radius: 5px;
+    position: relative;
+}
+
+#main-header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: rgb(12, 12, 119);
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.container-title .button a, button {
+    all: unset;
+    cursor: pointer;
+  }
+
+.container-content h1{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 30px;
+    font-weight: 1000;
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.container-content h2{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+
+}
+
+.gambar-content{
+    height: 300px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 300px;
+    object-fit: contain;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.isi-dalem{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 16px;
+}
+
+.pengarang{
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: right;
+}
+
+@media screen and (max-width: 900px){
+    .container-content{
+        margin: 0;
+        background: rgb(72, 72, 209);
+        border-radius: 5px;
+        position: relative;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width : 700px){
+    #main-header{
+        text-align : center;
+        height: 130px;
+    }
+
+    .turut{
+        text-align:center;
+        margin: auto;
+    }
+    .button-2{
+        display: block;
+        margin:auto;
+    }
+    .container-content{
+        margin-bottom: 80px;
+    }
+}
+
